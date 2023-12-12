@@ -17,7 +17,7 @@ C- Cite 3 exemplos de VCS:<br>
 A-  É um software para gerenciar diferentes versões de um documento/código, auxiliando em segregar cada etapa do desenvolvimento do mesmo.<br>
 
 B-  <br>
-    &#160;&#160;- Controle do histórico.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;- Controle do histórico.<br>
     &#160;&#160;- Trabalho em equipe.<br>
     &#160;&#160;- Resgate de versões estáveis.<br>
     &#160;&#160;- Segurança.<br>
