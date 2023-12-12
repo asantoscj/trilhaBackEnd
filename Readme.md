@@ -10,7 +10,7 @@
 
 Desafio 1!<br><br>
 A- Com suas palavras defina o que é um sistema de controle de versões (VCS)?<br>
-B- Cite 5 vantagens em utilizar um VCS:
+B- Cite 5 vantagens em utilizar um VCS:<br>
 C- Cite 3 exemplos de VCS:<br>
 
 # Respostas
