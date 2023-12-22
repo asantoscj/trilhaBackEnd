@@ -1,10 +1,10 @@
 package entity;
 
 public class Categoria {
-    
-    public Long id;
-    public String name;
-    public String description;
+
+    private Long id;
+    private String name;
+    private String description;
 
     public Categoria() {
 
@@ -16,8 +16,37 @@ public class Categoria {
         this.description = description;
     }
 
+    @Override
     public String toString() {
-        return description.toString();
+        return "Categoria{\n" +
+                "   id: " + id +
+                ", \n   name: " + name +
+                ", \n   description: " + description +
+                "\n}";
     }
-    
+
+    public Long getId() {
+        return this.id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDescription() {
+        return this.description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
 }

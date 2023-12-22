@@ -3,7 +3,7 @@
 </h1>
 
 <h1 align= "center">
-    <img src="imagens/81-1.jpg" max-width:200px; max-height:150px; width: auto; height: auto;>
+    <img src="imagens/81-1.jpg">
 </h1>
 
 # Desafio 1 Git!<br><br> 
