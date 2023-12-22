@@ -49,7 +49,7 @@ public class Principal {
         lancamento02.setCategoryId(6l);
 
         System.out.println(lancamento01.toString() + "\n");
-        System.out.println(lancamento02.toString());
+        System.out.println(lancamento02.toString() + "\n");
     }
 
     public static void dadosProduto() {
