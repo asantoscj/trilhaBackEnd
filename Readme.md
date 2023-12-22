@@ -6,7 +6,7 @@
     <img src="imagens/81-1.jpg">
 </h1>
 
-# Desafio 1 Git!<br><br> 
+# Desafio 1 Git!<br> 
 A- Com suas palavras defina o que é um sistema de controle de versões (VCS)?<br>
 B- Cite 5 vantagens em utilizar um VCS:<br>
 C- Cite 3 exemplos de VCS:<br>
@@ -26,7 +26,7 @@ C-  <br>
     &nbsp;&nbsp;&nbsp;&nbsp;2- CVS<br>
     &nbsp;&nbsp;&nbsp;&nbsp;3- TFS<br>
 
-# Desafio 2 POO!<br><br>
+# Desafio 2 POO!<br>
 A- Com suas palavras defina o que é programação orientada a objetos (POO) e cite seus pilares?<br>
 B- Exemplifique e explique um cenário de abstração;<br>
 C- Exemplifique e explique um cenário de encapsulamento;<br>
