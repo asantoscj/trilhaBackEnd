@@ -9,8 +9,8 @@ import java.util.ArrayList;
 public class Principal {
 
     public static void main(String[] args) {
-        //dadosCategoria();
-        //dadosLancamento();
+        dadosCategoria();
+        dadosLancamento();
         dadosProduto();
     }
 
@@ -60,7 +60,6 @@ public class Principal {
         listaProdutos01.add(new Produto(4L, "TV", "TV 55 Polegadas", 2274.78));
         listaProdutos01.add(new Produto(5L, "TV", "TV 60 Polegadas", 2284.78));
 
-
         var listaProdutos02 = new ArrayList<Produto>();
         listaProdutos02.add(new Produto(1L, "Laptop", "Laptop intel core i3", 3256.97));
         listaProdutos02.add(new Produto(2L, "Laptop", "Laptop intel core i5", 3266.97));
@@ -69,8 +68,8 @@ public class Principal {
         var produtoMaisCaroLista01 = new Produto();
         var precoProdutoLista01 = 0D;
 
-        for (Produto produto:listaProdutos01) {
-            if (produto.getPrice() > precoProdutoLista01 ) {
+        for (Produto produto : listaProdutos01) {
+            if (produto.getPrice() > precoProdutoLista01) {
                 precoProdutoLista01 = produto.getPrice();
                 produtoMaisCaroLista01 = produto;
             }
@@ -79,15 +78,15 @@ public class Principal {
         var produtoMaisCaroLista02 = new Produto();
         var precoProdutoLista02 = 0D;
 
-        for (Produto produto:listaProdutos02) {
-            if (produto.getPrice() > precoProdutoLista02 ) {
+        for (Produto produto : listaProdutos02) {
+            if (produto.getPrice() > precoProdutoLista02) {
                 precoProdutoLista02 = produto.getPrice();
                 produtoMaisCaroLista02 = produto;
             }
         }
 
         System.out.println("Produtos mais caros: \n" + produtoMaisCaroLista01 + produtoMaisCaroLista02 + "\n\n");
-        System.out.println("Todos os produtos: \n"+ listaProdutos01 + "\n\n" + listaProdutos02);
+        System.out.println("Todos os produtos: \n" + listaProdutos01 + "\n\n" + listaProdutos02);
     }
 
 }
